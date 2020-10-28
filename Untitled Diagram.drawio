@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2020-10-28T16:00:46.701Z" agent="5.0 (Windows)" etag="0VLtvdbJZBMODgDWg4RY" version="13.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-28T16:19:29.501Z" agent="5.0 (Windows)" etag="12xzs98BPFiHyg50X9Qp" version="13.8.5" type="github">
   <diagram id="Y8RW_nMM7FUyLUE6UGEh" name="Page-1">
-    <mxGraphModel dx="1446" dy="883" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2296" dy="883" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="-_0p66DI5QI1zj4v-Ik1-9" value="Hämta kundinformation" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;shadow=1;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="-_0p66DI5QI1zj4v-Ik1-9" value="Välj recept" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;shadow=1;fontStyle=1" parent="1" vertex="1">
           <mxGeometry y="120" width="200" height="120" as="geometry" />
         </mxCell>
         <mxCell id="-_0p66DI5QI1zj4v-Ik1-10" value="Farmaceut" style="shape=actor;whiteSpace=wrap;html=1;rounded=1;shadow=1;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
@@ -28,7 +28,7 @@
           <mxGeometry y="560" width="795" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Q4kJV671iwrY0cKDhgk4-4" value="Registret för individuella förskrivarbehörigheter (RIF)" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="600" width="230" height="20" as="geometry" />
+          <mxGeometry x="91" y="600" width="230" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Q4kJV671iwrY0cKDhgk4-5" value="Prisinformation / Högkostnadsdatabasen (PRIS/HKDB)" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="1">
           <mxGeometry y="640" width="795" height="20" as="geometry" />
@@ -45,7 +45,7 @@
         <mxCell id="Q4kJV671iwrY0cKDhgk4-10" value="Apotekspersonal" style="shape=actor;whiteSpace=wrap;html=1;rounded=1;shadow=1;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
           <mxGeometry x="100" y="20" width="40" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Q4kJV671iwrY0cKDhgk4-13" value="Välj recept" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;shadow=1;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="Q4kJV671iwrY0cKDhgk4-13" value="Välj/byt vara" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;shadow=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="240" y="120" width="200" height="120" as="geometry" />
         </mxCell>
         <mxCell id="Q4kJV671iwrY0cKDhgk4-16" value="" style="shape=actor;whiteSpace=wrap;html=1;rounded=1;shadow=1;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
@@ -55,84 +55,74 @@
           <mxGeometry x="20" y="130" width="20" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Q4kJV671iwrY0cKDhgk4-20" value="Folkbokförda personer (FOLK)" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="1">
-          <mxGeometry y="600" width="190" height="20" as="geometry" />
+          <mxGeometry x="-110" y="600" width="190" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Q4kJV671iwrY0cKDhgk4-26" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#FF0000;" edge="1" parent="1" source="-_0p66DI5QI1zj4v-Ik1-9">
+        <mxCell id="Q4kJV671iwrY0cKDhgk4-26" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#FF0000;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-150" y="350" as="sourcePoint" />
-            <mxPoint x="100" y="600" as="targetPoint" />
+            <mxPoint x="40" y="240" as="sourcePoint" />
+            <mxPoint x="40" y="600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Q4kJV671iwrY0cKDhgk4-28" value="TA Hämta patientinformation - Delfunktion 2" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;horizontal=0;labelPosition=left;verticalLabelPosition=top;spacingTop=0;spacingRight=10;" connectable="0" vertex="1" parent="Q4kJV671iwrY0cKDhgk4-26">
           <mxGeometry x="-1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Q4kJV671iwrY0cKDhgk4-29" value="" style="endArrow=classic;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;strokeColor=#FF0000;" edge="1" parent="1" source="Q4kJV671iwrY0cKDhgk4-13">
+        <mxCell id="Q4kJV671iwrY0cKDhgk4-29" value="" style="endArrow=classic;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;strokeColor=#FF0000;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="280" y="243.0000000000001" as="sourcePoint" />
-            <mxPoint x="290" y="560" as="targetPoint" />
+            <mxPoint x="80" y="240" as="sourcePoint" />
+            <mxPoint x="80" y="560" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Q4kJV671iwrY0cKDhgk4-30" value="TA Hämta förskrivningar och uttag" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;horizontal=0;labelPosition=left;verticalLabelPosition=top;spacingTop=0;spacingRight=10;" connectable="0" vertex="1" parent="Q4kJV671iwrY0cKDhgk4-29">
           <mxGeometry x="-1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Q4kJV671iwrY0cKDhgk4-31" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.427;entryY=-0.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Q4kJV671iwrY0cKDhgk4-13" target="Q4kJV671iwrY0cKDhgk4-4">
+        <mxCell id="Q4kJV671iwrY0cKDhgk4-31" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.427;entryY=-0.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="320" y="260.0000000000001" as="sourcePoint" />
-            <mxPoint x="320" y="580" as="targetPoint" />
+            <mxPoint x="120" y="240" as="sourcePoint" />
+            <mxPoint x="118.21000000000004" y="599" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Q4kJV671iwrY0cKDhgk4-32" value="Kontrollera utökad förskrivarbehörighet" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;horizontal=0;labelPosition=left;verticalLabelPosition=top;spacingTop=0;spacingRight=10;" connectable="0" vertex="1" parent="Q4kJV671iwrY0cKDhgk4-31">
           <mxGeometry x="-1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Q4kJV671iwrY0cKDhgk4-33" value="Kontrollera utökad förskrivarbehörighet" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;horizontal=0;labelPosition=left;verticalLabelPosition=top;spacingTop=0;spacingRight=10;" connectable="0" vertex="1" parent="1">
-          <mxGeometry x="340" y="240.0000000000001" as="geometry" />
-        </mxCell>
-        <mxCell id="Q4kJV671iwrY0cKDhgk4-34" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.477;entryY=-0.006;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="Q4kJV671iwrY0cKDhgk4-8">
+        <mxCell id="Q4kJV671iwrY0cKDhgk4-34" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.477;entryY=-0.006;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="381.79" y="241.0000000000001" as="sourcePoint" />
-            <mxPoint x="380" y="678" as="targetPoint" />
+            <mxPoint x="161.79000000000002" y="241.0000000000001" as="sourcePoint" />
+            <mxPoint x="159.21499999999992" y="679.8800000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Q4kJV671iwrY0cKDhgk4-35" value="Kontrollera utökad förskrivarbehörighet" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;horizontal=0;labelPosition=left;verticalLabelPosition=top;spacingTop=0;spacingRight=10;" connectable="0" vertex="1" parent="Q4kJV671iwrY0cKDhgk4-34">
-          <mxGeometry x="-1" relative="1" as="geometry" />
+        <mxCell id="Q4kJV671iwrY0cKDhgk4-35" value="Kontroll mot EES" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;horizontal=0;labelPosition=left;verticalLabelPosition=top;spacingTop=0;spacingRight=10;" connectable="0" vertex="1" parent="Q4kJV671iwrY0cKDhgk4-34">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Q4kJV671iwrY0cKDhgk4-36" value="Välj/byt vara" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;shadow=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="480" y="120" width="200" height="120" as="geometry" />
         </mxCell>
         <mxCell id="Q4kJV671iwrY0cKDhgk4-39" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.477;entryY=-0.006;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="502.58" y="240" as="sourcePoint" />
-            <mxPoint x="500.00499999999994" y="678.8800000000001" as="targetPoint" />
+            <mxPoint x="282.57" y="241.12" as="sourcePoint" />
+            <mxPoint x="279.99499999999995" y="680.0000000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Q4kJV671iwrY0cKDhgk4-40" value="Kontrollera utökad förskrivarbehörighet" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;horizontal=0;labelPosition=left;verticalLabelPosition=top;spacingTop=0;spacingRight=10;" connectable="0" vertex="1" parent="Q4kJV671iwrY0cKDhgk4-39">
+        <mxCell id="Q4kJV671iwrY0cKDhgk4-40" value="Hämta substitution" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;horizontal=0;labelPosition=left;verticalLabelPosition=top;spacingTop=0;spacingRight=10;" connectable="0" vertex="1" parent="Q4kJV671iwrY0cKDhgk4-39">
           <mxGeometry x="-1" relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Q4kJV671iwrY0cKDhgk4-41" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.477;entryY=-0.006;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="542.5799999999999" y="241.12" as="sourcePoint" />
-            <mxPoint x="540.0049999999999" y="680.0000000000001" as="targetPoint" />
+            <mxPoint x="320.9999999999999" y="240" as="sourcePoint" />
+            <mxPoint x="318.42499999999984" y="678.8800000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Q4kJV671iwrY0cKDhgk4-42" value="Kontrollera utökad förskrivarbehörighet" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;horizontal=0;labelPosition=left;verticalLabelPosition=top;spacingTop=0;spacingRight=10;" connectable="0" vertex="1" parent="Q4kJV671iwrY0cKDhgk4-41">
-          <mxGeometry x="-1" relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Q4kJV671iwrY0cKDhgk4-43" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.477;entryY=-0.006;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="562.5799999999999" y="241.1199999999999" as="sourcePoint" />
-            <mxPoint x="560.0049999999999" y="680" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Q4kJV671iwrY0cKDhgk4-44" value="Kontrollera utökad förskrivarbehörighet" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;horizontal=0;labelPosition=left;verticalLabelPosition=top;spacingTop=0;spacingRight=10;" connectable="0" vertex="1" parent="Q4kJV671iwrY0cKDhgk4-43">
+        <mxCell id="Q4kJV671iwrY0cKDhgk4-42" value="Hämta information om arbetsplats" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;horizontal=0;labelPosition=left;verticalLabelPosition=top;spacingTop=0;spacingRight=10;" connectable="0" vertex="1" parent="Q4kJV671iwrY0cKDhgk4-41">
           <mxGeometry x="-1" relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Q4kJV671iwrY0cKDhgk4-45" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.477;entryY=-0.006;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="581.29" y="241.1199999999999" as="sourcePoint" />
-            <mxPoint x="578.7149999999999" y="680" as="targetPoint" />
+            <mxPoint x="360" y="239.9999999999999" as="sourcePoint" />
+            <mxPoint x="357.42499999999995" y="678.88" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Q4kJV671iwrY0cKDhgk4-46" value="Kontrollera utökad förskrivarbehörighet" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;horizontal=0;labelPosition=left;verticalLabelPosition=top;spacingTop=0;spacingRight=10;" connectable="0" vertex="1" parent="Q4kJV671iwrY0cKDhgk4-45">
+        <mxCell id="Q4kJV671iwrY0cKDhgk4-46" value="Hämta information om förskrivare" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;horizontal=0;labelPosition=left;verticalLabelPosition=top;spacingTop=0;spacingRight=10;" connectable="0" vertex="1" parent="Q4kJV671iwrY0cKDhgk4-45">
           <mxGeometry x="-1" relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Q4kJV671iwrY0cKDhgk4-47" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.477;entryY=-0.006;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
@@ -216,7 +206,7 @@
             <mxPoint x="859.9949999999999" y="678.8800000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Q4kJV671iwrY0cKDhgk4-65" value="Kontrollera utökad förskrivarbehörighet" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;horizontal=0;labelPosition=left;verticalLabelPosition=top;spacingTop=0;spacingRight=10;" connectable="0" vertex="1" parent="Q4kJV671iwrY0cKDhgk4-64">
+        <mxCell id="Q4kJV671iwrY0cKDhgk4-65" value="fdsfdsfdsfdsaf fds fds fds fds fds fds" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;horizontal=0;labelPosition=left;verticalLabelPosition=top;spacingTop=0;spacingRight=10;" connectable="0" vertex="1" parent="Q4kJV671iwrY0cKDhgk4-64">
           <mxGeometry x="-1" relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Q4kJV671iwrY0cKDhgk4-66" value="Välj/byt vara" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;shadow=1;fontStyle=1" vertex="1" parent="1">
@@ -332,6 +322,12 @@
         </mxCell>
         <mxCell id="Q4kJV671iwrY0cKDhgk4-91" value="Kontrollera utökad förskrivarbehörighet" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;horizontal=0;labelPosition=left;verticalLabelPosition=top;spacingTop=0;spacingRight=10;" connectable="0" vertex="1" parent="Q4kJV671iwrY0cKDhgk4-90">
           <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q4kJV671iwrY0cKDhgk4-92" value="" style="endArrow=classic;html=1;strokeColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Q4kJV671iwrY0cKDhgk4-13" target="Q4kJV671iwrY0cKDhgk4-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="430" as="sourcePoint" />
+            <mxPoint x="340" y="380" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
