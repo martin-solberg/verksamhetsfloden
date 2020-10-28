@@ -1,71 +1,76 @@
-<mxfile host="app.diagrams.net" modified="2020-10-28T15:16:21.640Z" agent="5.0 (Windows)" etag="mGIfFYiFHHDE7M8PFN9u" version="13.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-28T15:46:17.090Z" agent="5.0 (Windows)" etag="B4zi88wOYuw_USRnSvTF" version="13.8.5" type="github">
   <diagram id="Y8RW_nMM7FUyLUE6UGEh" name="Page-1">
-    <mxGraphModel dx="2296" dy="883" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2055" dy="736" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="-_0p66DI5QI1zj4v-Ik1-1" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=10;notch=10;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="80" y="680" width="550" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="-_0p66DI5QI1zj4v-Ik1-4" value="&lt;a href=&quot;http://draw.io&quot;&gt;gfds&lt;/a&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="80" y="240" width="560" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="-_0p66DI5QI1zj4v-Ik1-5" value="gfd" style="whiteSpace=wrap;html=1;aspect=fixed;shadow=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="120" y="40" width="130" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="-_0p66DI5QI1zj4v-Ik1-8" value="gfds" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.607;entryY=-0.025;entryDx=0;entryDy=0;entryPerimeter=0;horizontal=0;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;spacingTop=8;spacingLeft=0;spacingRight=17;" parent="1" source="-_0p66DI5QI1zj4v-Ik1-6" target="-_0p66DI5QI1zj4v-Ik1-4" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="-_0p66DI5QI1zj4v-Ik1-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.696;entryY=-0.075;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="-_0p66DI5QI1zj4v-Ik1-6" target="-_0p66DI5QI1zj4v-Ik1-13" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="-480" y="200" width="130" height="130" as="geometry" />
         </mxCell>
         <mxCell id="-_0p66DI5QI1zj4v-Ik1-6" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" parent="1" vertex="1">
-          <mxGeometry x="360" y="40" width="120" height="60" as="geometry" />
+          <mxGeometry x="-390" y="90" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-_0p66DI5QI1zj4v-Ik1-9" value="gfdgdfs" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;shadow=1;" parent="1" vertex="1">
-          <mxGeometry x="533" y="40" width="200" height="110" as="geometry" />
+        <mxCell id="-_0p66DI5QI1zj4v-Ik1-9" value="Hämta kundinformation" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;shadow=1;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry y="120" width="200" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="-_0p66DI5QI1zj4v-Ik1-10" value="Förskrivare" style="shape=actor;whiteSpace=wrap;html=1;rounded=1;shadow=1;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="-53" y="15" width="40" height="60" as="geometry" />
+        <mxCell id="-_0p66DI5QI1zj4v-Ik1-10" value="Farmaceut" style="shape=actor;whiteSpace=wrap;html=1;rounded=1;shadow=1;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="10" y="20" width="40" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-_0p66DI5QI1zj4v-Ik1-12" value="&lt;a href=&quot;http://draw.io&quot;&gt;gfds&lt;/a&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="90" y="350" width="560" height="20" as="geometry" />
+        <mxCell id="-_0p66DI5QI1zj4v-Ik1-12" value="Legitimationsregister (FORS)" style="whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;rounded=1;" parent="1" vertex="1">
+          <mxGeometry y="520" width="795" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="-_0p66DI5QI1zj4v-Ik1-13" value="&lt;a href=&quot;http://draw.io&quot;&gt;gfds&lt;/a&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="60" y="320" width="560" height="20" as="geometry" />
+        <mxCell id="Q4kJV671iwrY0cKDhgk4-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="-_0p66DI5QI1zj4v-Ik1-9" target="Q4kJV671iwrY0cKDhgk4-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-40" y="180" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="-_0p66DI5QI1zj4v-Ik1-17" value="gfd" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=1;shadow=1;arcSize=10;dx=20;dy=20;" parent="1" vertex="1">
-          <mxGeometry x="150" y="460" width="170" height="120" as="geometry" />
+        <mxCell id="Q4kJV671iwrY0cKDhgk4-1" value="Varuregister (VARA)" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;rounded=1;" vertex="1" parent="1">
+          <mxGeometry y="440" width="795" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="-_0p66DI5QI1zj4v-Ik1-35" value="" style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" parent="1" vertex="1">
-          <mxGeometry x="410" y="430" width="180" height="80" as="geometry" />
+        <mxCell id="Q4kJV671iwrY0cKDhgk4-2" value="Arbetsplatskoder (ARKO)" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="1">
+          <mxGeometry y="480" width="795" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="-_0p66DI5QI1zj4v-Ik1-36" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="-_0p66DI5QI1zj4v-Ik1-35" vertex="1">
-          <mxGeometry width="180" height="40" as="geometry" />
+        <mxCell id="Q4kJV671iwrY0cKDhgk4-3" value="Nationella läkemedelslistan (NLL)" style="whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;rounded=1;" vertex="1" parent="1">
+          <mxGeometry y="560" width="795" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="-_0p66DI5QI1zj4v-Ik1-37" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" parent="-_0p66DI5QI1zj4v-Ik1-36" vertex="1">
-          <mxGeometry width="60" height="40" as="geometry" />
+        <mxCell id="Q4kJV671iwrY0cKDhgk4-4" value="Registret för individuella förskrivarbehörigheter (RIF)" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="1">
+          <mxGeometry y="600" width="795" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="-_0p66DI5QI1zj4v-Ik1-38" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" parent="-_0p66DI5QI1zj4v-Ik1-36" vertex="1">
-          <mxGeometry x="60" width="60" height="40" as="geometry" />
+        <mxCell id="Q4kJV671iwrY0cKDhgk4-5" value="Prisinformation / Högkostnadsdatabasen (PRIS/HKDB)" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="1">
+          <mxGeometry y="640" width="795" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="-_0p66DI5QI1zj4v-Ik1-39" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" parent="-_0p66DI5QI1zj4v-Ik1-36" vertex="1">
-          <mxGeometry x="120" width="60" height="40" as="geometry" />
+        <mxCell id="Q4kJV671iwrY0cKDhgk4-7" value="Expeditionsställeregister (EXPO)" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="1">
+          <mxGeometry y="720" width="795" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="-_0p66DI5QI1zj4v-Ik1-40" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="-_0p66DI5QI1zj4v-Ik1-35" vertex="1">
-          <mxGeometry y="40" width="180" height="40" as="geometry" />
+        <mxCell id="Q4kJV671iwrY0cKDhgk4-8" value="Elektroniskt expertstöd (EES)" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="1">
+          <mxGeometry y="680" width="795" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="-_0p66DI5QI1zj4v-Ik1-41" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" parent="-_0p66DI5QI1zj4v-Ik1-40" vertex="1">
-          <mxGeometry width="60" height="40" as="geometry" />
+        <mxCell id="Q4kJV671iwrY0cKDhgk4-9" value="Försäljningstransaktioner (FOTA)" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="1">
+          <mxGeometry y="760" width="795" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="-_0p66DI5QI1zj4v-Ik1-42" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" parent="-_0p66DI5QI1zj4v-Ik1-40" vertex="1">
-          <mxGeometry x="60" width="60" height="40" as="geometry" />
+        <mxCell id="Q4kJV671iwrY0cKDhgk4-10" value="Apotekspersonal" style="shape=actor;whiteSpace=wrap;html=1;rounded=1;shadow=1;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="100" y="20" width="40" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-_0p66DI5QI1zj4v-Ik1-43" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" parent="-_0p66DI5QI1zj4v-Ik1-40" vertex="1">
-          <mxGeometry x="120" width="60" height="40" as="geometry" />
+        <mxCell id="Q4kJV671iwrY0cKDhgk4-13" value="Välj recept" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;shadow=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="240" y="120" width="200" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="-_0p66DI5QI1zj4v-Ik1-46" value="Entity" style="whiteSpace=wrap;html=1;align=center;rounded=1;shadow=1;" parent="1" vertex="1">
-          <mxGeometry x="-181" y="188" width="100" height="40" as="geometry" />
+        <mxCell id="Q4kJV671iwrY0cKDhgk4-16" value="" style="shape=actor;whiteSpace=wrap;html=1;rounded=1;shadow=1;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="360" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q4kJV671iwrY0cKDhgk4-17" value="" style="shape=actor;whiteSpace=wrap;html=1;rounded=1;shadow=1;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="20" y="130" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q4kJV671iwrY0cKDhgk4-20" value="Folkbokförda personer (FOLK)" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="1">
+          <mxGeometry y="800" width="795" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Q4kJV671iwrY0cKDhgk4-26" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#FF0000;" edge="1" parent="1" source="-_0p66DI5QI1zj4v-Ik1-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-150" y="350" as="sourcePoint" />
+            <mxPoint x="100" y="797" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q4kJV671iwrY0cKDhgk4-28" value="TA Hämta patientinformation - Delfunktion 2" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;horizontal=0;labelPosition=left;verticalLabelPosition=top;spacingTop=0;spacingRight=10;" connectable="0" vertex="1" parent="Q4kJV671iwrY0cKDhgk4-26">
+          <mxGeometry x="-1" relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
