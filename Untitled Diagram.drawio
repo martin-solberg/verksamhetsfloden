@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-10-28T16:23:28.689Z" agent="5.0 (Windows)" etag="I6rDC276c3mlR9mjCODs" version="13.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-28T16:27:29.965Z" agent="5.0 (Windows)" etag="BzIYxHdSzbNFsjoCDk0C" version="13.8.5" type="github">
   <diagram id="Y8RW_nMM7FUyLUE6UGEh" name="Page-1">
-    <mxGraphModel dx="2296" dy="883" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1446" dy="883" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -18,17 +18,17 @@
             <mxPoint x="-40" y="180" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Q4kJV671iwrY0cKDhgk4-1" value="Varuregister (VARA)" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;rounded=1;" vertex="1" parent="1">
-          <mxGeometry y="440" width="795" height="20" as="geometry" />
+        <mxCell id="Q4kJV671iwrY0cKDhgk4-1" value="VARA" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="600" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Q4kJV671iwrY0cKDhgk4-2" value="Arbetsplatskoder (ARKO)" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="1">
-          <mxGeometry y="480" width="795" height="20" as="geometry" />
+        <mxCell id="Q4kJV671iwrY0cKDhgk4-2" value="ARKO" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="600" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Q4kJV671iwrY0cKDhgk4-3" value="Nationella läkemedelslistan (NLL)" style="whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;rounded=1;" vertex="1" parent="1">
           <mxGeometry y="560" width="795" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Q4kJV671iwrY0cKDhgk4-4" value="Registret för individuella förskrivarbehörigheter (RIF)" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="91" y="600" width="230" height="20" as="geometry" />
+        <mxCell id="Q4kJV671iwrY0cKDhgk4-4" value="RIF" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="600" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Q4kJV671iwrY0cKDhgk4-5" value="Prisinformation / Högkostnadsdatabasen (PRIS/HKDB)" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="1">
           <mxGeometry y="640" width="795" height="20" as="geometry" />
@@ -36,8 +36,8 @@
         <mxCell id="Q4kJV671iwrY0cKDhgk4-7" value="Expeditionsställeregister (EXPO)" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="1">
           <mxGeometry y="720" width="795" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Q4kJV671iwrY0cKDhgk4-8" value="Elektroniskt expertstöd (EES)" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="1">
-          <mxGeometry y="680" width="795" height="20" as="geometry" />
+        <mxCell id="Q4kJV671iwrY0cKDhgk4-8" value="EES" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="600" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Q4kJV671iwrY0cKDhgk4-9" value="Försäljningstransaktioner (FOTA)" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="1">
           <mxGeometry y="760" width="795" height="20" as="geometry" />
@@ -54,9 +54,9 @@
         <mxCell id="Q4kJV671iwrY0cKDhgk4-17" value="" style="shape=actor;whiteSpace=wrap;html=1;rounded=1;shadow=1;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
           <mxGeometry x="20" y="130" width="20" height="30" as="geometry" />
         </mxCell>
-        <UserObject label="Folkbokförda personer (FOLK)" tooltip="Folkbokförda personer (FOLK)" id="Q4kJV671iwrY0cKDhgk4-20">
+        <UserObject label="FOLK" tooltip="Folkbokförda personer (FOLK)" id="Q4kJV671iwrY0cKDhgk4-20">
           <mxCell style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="1">
-            <mxGeometry x="-110" y="600" width="190" height="20" as="geometry" />
+            <mxGeometry y="600" width="70" height="20" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="Q4kJV671iwrY0cKDhgk4-26" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#FF0000;" edge="1" parent="1">
@@ -86,7 +86,7 @@
         <mxCell id="Q4kJV671iwrY0cKDhgk4-32" value="Kontrollera utökad förskrivarbehörighet" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;horizontal=0;labelPosition=left;verticalLabelPosition=top;spacingTop=0;spacingRight=10;" connectable="0" vertex="1" parent="Q4kJV671iwrY0cKDhgk4-31">
           <mxGeometry x="-1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Q4kJV671iwrY0cKDhgk4-34" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.477;entryY=-0.006;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+        <mxCell id="Q4kJV671iwrY0cKDhgk4-34" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="Q4kJV671iwrY0cKDhgk4-8">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="161.79000000000002" y="241.0000000000001" as="sourcePoint" />
             <mxPoint x="159.21499999999992" y="679.8800000000001" as="targetPoint" />
